@@ -45,7 +45,7 @@ button:hover {
     padding-right: 70px;
 }
 .two p {
-    font-size: 1.6vw;
+    font-size: 1.5vw;
 }
 figure {
     display: flex;
@@ -75,12 +75,19 @@ figure {
 }
 .four p {
     padding-top: 10px;
+    font-size: 1vw;
 }
 
 @media screen and (max-width: 600px) {
     .pic1 {
         display: none;
         justify-content: start;
+    }
+    .four p {
+        font-size: 2vw;
+    }
+    .two p {
+        font-size: 1vw;
     }
     figure {
         display: flex;
