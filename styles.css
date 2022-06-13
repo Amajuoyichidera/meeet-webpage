@@ -97,7 +97,7 @@ figure {
         justify-content: flex-start;
         padding-left: 15px;
         padding-top: 15px;
-        gap: 10px;
+        gap: 100px;
     }
     .man {
         display: none;
